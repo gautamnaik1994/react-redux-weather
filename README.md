@@ -1,3 +1,3 @@
-# React Redux Test Project
-This is a sample React-Redux project which uses Webpack-2.
+# React Redux Weather Test Project
+This is a sample React-Redux Weather project which uses Webpack-2.
 
