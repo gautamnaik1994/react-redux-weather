@@ -83,6 +83,8 @@ module.exports = {
     resolve: {
         modules: [
             path.join(__dirname, "./app/components"),
+            path.join(__dirname, "./app/actions"),
+            path.join(__dirname, "./app/reducers"),
             path.join(__dirname, "./app/containers"),
             "node_modules"
         ],
