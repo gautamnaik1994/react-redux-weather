@@ -1,17 +1,18 @@
 body {
-  display: -ms-flexbox;
-  display: flex;
+  font-family: 'Open Sans';
 }
 
-body .ff {
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+.input-group {
+  margin: 32px 0;
+  margin: 2rem 0;
 }
 
-.position {
-  top: 10px;
-  right: 20px;
-  left: 5px;
-  position: absolute;
+td, th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+td:first-of-type {
+  height: 200px;
+  width: 250px;
 }

@@ -5,7 +5,7 @@ import _ from 'lodash';
 function average(data) {
     // var sum = data.reduce((acc, val) => { return acc + val; }, 0);
     // return sum / data.length;
-   return  (_.sum(data)/data.length)
+    return _.round(_.sum(data) / data.length);
 }
 
 export default (props) => {
@@ -15,7 +15,7 @@ export default (props) => {
                 <SparklinesLine color={props.color} />
                 <SparklinesReferenceLine type="avg"/>
             </Sparklines>    
-            <div>{average(props.data)}</div>
+            <div>{average(props.data)} {props.units}</div>
         </div>  
     );
 }
