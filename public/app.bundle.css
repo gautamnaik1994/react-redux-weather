@@ -1,18 +1,1 @@
-body {
-  font-family: 'Open Sans';
-}
-
-.input-group {
-  margin: 32px 0;
-  margin: 2rem 0;
-}
-
-td, th {
-  vertical-align: middle !important;
-  text-align: center;
-}
-
-td:first-of-type {
-  height: 200px;
-  width: 250px;
-}
+body{font-family:Open Sans}.input-group{margin:32px 0;margin:2rem 0}td,th{vertical-align:middle!important;text-align:center}td:first-of-type{height:200px;width:250px}
